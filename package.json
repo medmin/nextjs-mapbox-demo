@@ -1,0 +1,28 @@
+{
+  "name": "nextjs-mapbox-typescript-demo",
+  "version": "1.0.0",
+  "description": "a demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nextjs",
+    "mapbox"
+  ],
+  "author": "Yumin Gui <yumindev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mapbox-gl": "^1.9.1",
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^4.0.0"
+  }
+}
